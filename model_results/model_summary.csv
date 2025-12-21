@@ -1,0 +1,2 @@
+r2_score,rmse_log,mae_log,rmse_orig,mae_orig,best_alpha,best_l1_ratio,n_features_selected,n_counties_train,n_counties_test
+0.20816683186823082,2.0880184919420905,1.6937905036506398,16.375234266164473,6.333944021681544,0.01,0.1,12,1023,256
