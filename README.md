@@ -24,12 +24,24 @@ echo "CENSUS_API_KEY=your_key_here" >> .env
 # 01_data_preparation.ipynb → 02_EDA.ipynb → 03_modeling.ipynb
 ```
 
-[Full setup instructions](#environment-setup) | [Data sources](#data-sources) | [Project structure](#project-structure)
+### Start here (for reviewers)
+
+- Read [RESULTS.md](RESULTS.md) for key findings and business implications.
+- Use these direct links to jump to the relevant sections in Notebooks:
+   - Data prep + assumptions: [01_data_preparation.ipynb](01_data_preparation.ipynb#methodological-assumptions-consequences)
+   - EDA + decisions: [02_EDA.ipynb](02_EDA.ipynb#key-decisions)
+   - Modeling approach + results: [03_modeling.ipynb](03_modeling.ipynb#modeling-approach-justification)
+- To reproduce the dataset build and analysis, run notebooks in order: [01_data_preparation.ipynb](01_data_preparation.ipynb) → [02_EDA.ipynb](02_EDA.ipynb) → [03_modeling.ipynb](03_modeling.ipynb).
+- Model artifacts are saved in [model_results/](model_results/).
+
+[Results](RESULTS.md) | [Full setup instructions](#environment-setup) | [Data sources](#data-sources) | [Project structure](#project-structure)
 
 ---
 
 ## Table of Contents
 
+- [Start Here](#start-here-for-reviewers)
+- [Results](RESULTS.md)
 - [Research Question](#research-question)
 - [Project Overview](#project-overview)
   - [Scope](#scope)
@@ -154,6 +166,7 @@ solar_adoption/
 ├── 02_EDA.ipynb                 # Exploratory data analysis
 ├── 03_modeling.ipynb            # Statistical modeling
 ├── README.md                     # This file
+├── RESULTS.md                    # Key findings and business implications
 ├── requirements.txt              # Python dependencies
 ├── model_results/               # Model outputs
 │   ├── model_coefficients.csv
