@@ -2,7 +2,7 @@
 
 ## Research Question
 
-Which structural and socioeconomic factors explain variation in residential solar adoption, conditional on sufficient solar resource and mature technology?
+Which structural and socioeconomic factors are associated with under-adoption of residential solar, conditional on sufficient solar resource and mature technology?
 
 This framing treats solar resource as sufficient so the analysis can focus on barriers and enablers such as capital, housing constraints, policy environment, and equity-related factors.
 
