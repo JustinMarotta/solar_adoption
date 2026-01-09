@@ -57,7 +57,7 @@ echo "CENSUS_API_KEY=your_key_here" >> .env
 
 ### Research Question
 
-Which structural and socioeconomic factors explain variation in residential solar adoption, **conditional on sufficient solar resource and mature technology**?  
+Which structural and socioeconomic factors are associated with under-adoption of residential solar, **conditional on sufficient solar resource and mature technology**?  
 
 Sunlight is excluded from the main analysis because:  
 - It explains less than 1% of variance in log-adoption across most counties.  
