@@ -73,6 +73,35 @@ Analysis of solar adoption patterns across US counties using:
 3. **Barriers**: US Census/ACS - Demographics (income, homeownership, urbanicity)
 4. **Policy**: DSIRE - Net metering policy indicators
 
+### Features
+
+Affordability/Financing:
+- Median household income
+
+Structural Feasibility:
+- Homeownership rate
+- Single family home %
+
+Demographics:
+- % Bachelors or higher education
+- % White
+- % Black
+- % Hispanic
+- Avg household size
+    
+Geography/Physical:
+- Population density
+- Urbanicity
+
+    
+Policy:
+- Has_net_metering
+- Has_solar_incentive
+- Total # of solar programs
+
+Control:
+- Average daily sunlight (KJ/m²)
+
 ### Scope
 
 **Geographic Focus: United States (County-Level)**
@@ -98,6 +127,7 @@ Residential adoption matters because:
 3. Global Solar Council. Solar Energy and Its Benefits for the Power Grid. https://www.globalsolarcouncil.org/news/solar-energy-and-its-countless-benefits-for-the-power-grid/
 4. Solar Energy Industries Association (SEIA) & Wood Mackenzie. U.S. Solar Market Insight Report (2024). https://seia.org/research-resources/solar-market-insight-report-q4-2025/
 5. O'Shaughnessy, E., Heeter, J., & Graziano, M. (2021). "Disparities in rooftop photovoltaic adoption by income in the United States." *Nature Energy*, 6(12), 1124-1130. https://escholarship.org/uc/item/5sz1j52z
+   
 
 ## Environment Setup
 
